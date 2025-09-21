@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="public.css">
+</head>
+<body>
+  <h1>🐇Tic Tac Toe</h1>
+
+  <div class="modes">
+    <button id="twoPlayer" class="active">👥 2 Player</button>
+    <button id="vsAI">🤖 Vs Computer</button>
+  </div>
+
+  <div class="scoreboard">
+    <div>❌ X Wins: <span id="scoreX">0</span></div>
+    <div>⭕ O Wins: <span id="scoreO">0</span></div>
+    <div>🤝 Draws: <span id="scoreDraw">0</span></div>
+  </div>
+
+  <div class="board" id="board"></div>
+  <div id="winner"></div>
+  <button id="reset">🔄 Play Again</button>
+
+  <script src="public.js"></script>
+</body>
+</html>
